@@ -1,0 +1,10 @@
+.feedPage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: var(--space-xl);
+}
+
+.feedPageWithMiniPlayer {
+  padding-bottom: calc(var(--mini-player-height) + var(--space-xl) + var(--safe-area-bottom));
+}
