@@ -1,17 +1,17 @@
-# Python Peak Video Hub
+# TurboLearnPHP Video Hub
 
-A modern video hub showcasing content from the **Python Peak** YouTube channel - your gateway to creative Python programming, stunning turtle graphics, and coding techniques.
+A modern video hub showcasing content from the **TurboLearnPHP** YouTube channel - your gateway to mastering PHP with daily insights, real-world code, and clean-coding techniques.
 
-## About Python Peak
+## About TurboLearnPHP
 
-Python Peak is a YouTube channel dedicated to showcasing the artistic and technical possibilities of Python programming. From stunning Turtle graphics animations to practical coding shortcuts, each video demonstrates how code can be both functional and visually captivating.
+TurboLearnPHP is a YouTube channel delivering fast PHP tips and mini-lessons focused on backend development excellence. Each video provides practical insights with real-world code examples, problem-solving techniques, and clean-coding tips to sharpen your PHP skills.
 
-**YouTube Channel**: [Python Peak](https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw)
+**YouTube Channel**: [TurboLearnPHP](https://www.youtube.com/@TurboLearnPHP)
 
 ### What You'll Find
 
-- 🐍 **Python Turtle Graphics** - Mesmerizing animations including fractals, spirals, cosmic patterns, and mathematical visualizations
-- 💡 **Coding Tips & Tricks** - Quick Python shortcuts for sorting, conversions, data manipulation, and problem-solving
-- 🎨 **Visual Programming** - Creative coding demonstrations from particle effects to geometric patterns
-- 📚 **Python Fundamentals** - Clear explanations of core concepts like collections, iterators, and built-in functions
-- 🎯 **Algorithmic Art** - Where mathematics meets creativity through code
+- 🚀 **Fast PHP Tips** - Quick, actionable PHP lessons and mini-tutorials delivered in minutes
+- 💡 **Clean Code Practices** - Best practices for writing maintainable, professional PHP code
+- 🎯 **Real-World Examples** - Practical PHP solutions to common backend development challenges
+- 📚 **Backend Techniques** - Deep dives into PHP fundamentals, patterns, and modern approaches
+- 🔧 **Problem-Solving** - Smart tricks and techniques to solve PHP development challenges efficiently

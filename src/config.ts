@@ -1,16 +1,16 @@
 export const config = {
     // Site Information
     site: {
-        name: 'Python Peak',
-        title: 'Python Peak Video Hub - Creative Python Programming & Visual Coding',
-        description: 'Discover Python Peak\'s stunning turtle graphics, coding tips, and algorithmic art. Watch Python Shorts showcasing fractals, animations, and programming techniques.',
-        url: 'https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw', // Update with your actual domain
+        name: 'TurboLearnPHP',
+        title: 'TurboLearnPHP Video Hub - Daily PHP Insights & Clean Code Tips',
+        description: 'Master PHP with TurboLearnPHP\'s fast tips and mini-lessons. Real-world code, problem-solving techniques, and clean-coding practices for backend developers.',
+        url: 'https://www.youtube.com/@TurboLearnPHP', // Update with your actual domain
     },
 
     // SEO Meta Tags
     seo: {
-        keywords: 'Python programming, Python Turtle graphics, coding tutorials, Python Shorts, algorithmic art, Python tips, visual programming, fractals, Python animations',
-        author: 'Python Peak',
+        keywords: 'PHP programming, PHP tutorials, backend development, clean code PHP, PHP tips, PHP Shorts, PHP best practices, web development, server-side programming',
+        author: 'TurboLearnPHP',
         ogImage: 'https://i.ytimg.com/vi/Kw1PxeOnRhk/hqdefault.jpg',
         twitterCard: 'summary_large_image',
     },
@@ -18,8 +18,8 @@ export const config = {
     // YouTube Channel
     youtube: {
         channelId: 'UCyxR3ualvHiBvzyhx69aEIw',
-        channelUrl: 'https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw',
-        channelName: 'Python Peak',
+        channelUrl: 'https://www.youtube.com/@TurboLearnPHP',
+        channelName: 'TurboLearnPHP',
     },
 
     // Data Source
@@ -32,7 +32,7 @@ export const config = {
     // UI Settings
     ui: {
         logo: {
-            text: 'Python Peak',
+            text: 'TurboLearnPHP',
             image: '/logo.png',
         },
         theme: {
@@ -48,30 +48,30 @@ export const config = {
     // Content
     content: {
         about: {
-            title: 'Python Peak Video Hub',
-            subtitle: 'Your gateway to creative Python programming',
-            description: 'Welcome to the Python Peak Video Hub – your gateway to discovering creative Python programming, mind-bending visualizations, and coding techniques that make programming both beautiful and educational.',
-            channelDescription: 'Python Peak is a YouTube channel dedicated to showcasing the artistic and technical possibilities of Python programming. From stunning Turtle graphics animations to practical coding shortcuts, each video demonstrates how code can be both functional and visually captivating.',
+            title: 'TurboLearnPHP Video Hub',
+            subtitle: 'Your gateway to mastering PHP',
+            description: 'Welcome to the TurboLearnPHP Video Hub – your gateway to mastering PHP with daily insights, real-world code examples, and clean-coding techniques that sharpen your backend development skills.',
+            channelDescription: 'TurboLearnPHP is a YouTube channel delivering fast PHP tips and mini-lessons focused on backend development excellence. Each video provides practical insights with real-world code, problem-solving techniques, and clean-coding practices to help you become a better PHP developer.',
             features: [
                 {
-                    title: 'Python Turtle Graphics',
-                    description: 'Mesmerizing animations including fractals, spirals, cosmic patterns, and mathematical visualizations',
+                    title: 'Fast PHP Tips',
+                    description: 'Quick, actionable PHP lessons and mini-tutorials delivered in minutes',
                 },
                 {
-                    title: 'Coding Tips & Tricks',
-                    description: 'Quick Python shortcuts for sorting, conversions, data manipulation, and problem-solving',
+                    title: 'Clean Code Practices',
+                    description: 'Best practices for writing maintainable, professional PHP code',
                 },
                 {
-                    title: 'Visual Programming',
-                    description: 'Creative coding demonstrations from particle effects to geometric patterns',
+                    title: 'Real-World Examples',
+                    description: 'Practical PHP solutions to common backend development challenges',
                 },
                 {
-                    title: 'Python Fundamentals',
-                    description: 'Clear explanations of core concepts like collections, iterators, and built-in functions',
+                    title: 'Backend Techniques',
+                    description: 'Deep dives into PHP fundamentals, patterns, and modern approaches',
                 },
                 {
-                    title: 'Algorithmic Art',
-                    description: 'Where mathematics meets creativity through code',
+                    title: 'Problem-Solving',
+                    description: 'Smart tricks and techniques to solve PHP development challenges efficiently',
                 },
             ],
         },
@@ -80,7 +80,7 @@ export const config = {
             sections: [
                 {
                     title: 'Your Privacy Matters',
-                    content: 'Python Peak Video Hub is built with privacy as a core principle. This is a client-side application that runs entirely in your browser with zero tracking, zero data collection, and zero external servers storing your information.',
+                    content: 'TurboLearnPHP Video Hub is built with privacy as a core principle. This is a client-side application that runs entirely in your browser with zero tracking, zero data collection, and zero external servers storing your information.',
                 },
             ],
         },

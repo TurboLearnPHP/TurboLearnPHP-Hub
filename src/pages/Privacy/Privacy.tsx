@@ -15,7 +15,7 @@ export function PrivacyPage() {
             Your Privacy Matters
           </h2>
           <p className={styles.paragraph}>
-            Python Peak Video Hub is built with privacy as a core principle. This is a client-side
+            TurboLearnPHP Video Hub is built with privacy as a core principle. This is a client-side
             application that runs entirely in your browser with zero tracking, zero data collection,
             and zero external servers storing your information.
           </p>
@@ -69,7 +69,7 @@ export function PrivacyPage() {
               Feed Data
             </h3>
             <p className={styles.cardText}>
-              Python Peak video information is stored locally so you can browse content quickly
+              TurboLearnPHP video information is stored locally so you can browse content quickly
               without repeated network requests.
             </p>
           </div>
@@ -86,7 +86,7 @@ export function PrivacyPage() {
           <ul className={styles.list}>
             <li><strong>Video Content:</strong> All videos are embedded from YouTube. When you watch a video, YouTube's embed player loads and may set cookies according to YouTube's privacy policy.</li>
             <li><strong>Thumbnails:</strong> Video preview images are loaded from YouTube's servers to show you what each video contains.</li>
-            <li><strong>Feed Data:</strong> Python Peak channel information comes from YouTube's public RSS feed.</li>
+            <li><strong>Feed Data:</strong> TurboLearnPHP channel information comes from YouTube's public RSS feed.</li>
           </ul>
           <p className={styles.paragraph}>
             YouTube may collect viewing data through their embed player. Please review
@@ -98,7 +98,7 @@ export function PrivacyPage() {
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>No Tracking, No Analytics</h2>
           <p className={styles.paragraph}>
-            Python Peak Video Hub does not use:
+            TurboLearnPHP Video Hub does not use:
           </p>
           <ul className={styles.list}>
             <li>Analytics services (Google Analytics, etc.)</li>
@@ -127,9 +127,9 @@ export function PrivacyPage() {
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>Questions?</h2>
           <p className={styles.paragraph}>
-            This is an open-source project showcasing Python Peak's educational content. The code is transparent
+            This is an open-source project showcasing TurboLearnPHP's educational content. The code is transparent
             and you can verify that no data collection occurs. If you have privacy concerns or questions, feel free
-            to inspect the source code or reach out through the Python Peak YouTube channel.
+            to inspect the source code or reach out through the TurboLearnPHP YouTube channel.
           </p>
         </section>
       </div>

@@ -7,28 +7,29 @@ export function AboutPage() {
     <div className={styles.page}>
       <Header />
       <div className={styles.content}>
-        <h1 className={styles.title}>Python Peak Video Hub</h1>
+        <h1 className={styles.title}>TurboLearnPHP Video Hub</h1>
 
         <section className={styles.section}>
           <p className={styles.paragraph}>
-            Welcome to the Python Peak Video Hub – your gateway to discovering creative Python programming,
-            mind-bending visualizations, and coding techniques that make programming both beautiful and educational.
+            Welcome to the TurboLearnPHP Video Hub – your gateway to mastering PHP with daily insights,
+            real-world code examples, and clean-coding techniques that sharpen your backend development skills.
           </p>
         </section>
 
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>
             <Sparkles size={24} />
-            About Python Peak
+            About TurboLearnPHP
           </h2>
           <p className={styles.paragraph}>
-            Python Peak is a YouTube channel dedicated to showcasing the artistic and technical possibilities
-            of Python programming. From stunning Turtle graphics animations to practical coding shortcuts,
-            each video demonstrates how code can be both functional and visually captivating.
+            TurboLearnPHP is a YouTube channel delivering fast PHP tips and mini-lessons focused on backend
+            development excellence. Each video provides practical insights with real-world code, problem-solving
+            techniques, and clean-coding practices to help you become a better PHP developer.
           </p>
           <p className={styles.paragraph}>
-            Whether you're learning Python fundamentals, exploring advanced techniques, or simply enjoying
-            beautiful algorithmic art, Python Peak delivers bite-sized content that inspires and educates.
+            Whether you're learning PHP fundamentals, exploring advanced backend patterns, or looking for
+            quick problem-solving techniques, TurboLearnPHP delivers bite-sized content that educates
+            and empowers you with actionable skills.
           </p>
         </section>
 
@@ -38,11 +39,11 @@ export function AboutPage() {
             What You'll Find Here
           </h2>
           <ul className={styles.list}>
-            <li><strong>Python Turtle Graphics:</strong> Mesmerizing animations including fractals, spirals, cosmic patterns, and mathematical visualizations</li>
-            <li><strong>Coding Tips & Tricks:</strong> Quick Python shortcuts for sorting, conversions, data manipulation, and problem-solving</li>
-            <li><strong>Visual Programming:</strong> Creative coding demonstrations from particle effects to geometric patterns</li>
-            <li><strong>Python Fundamentals:</strong> Clear explanations of core concepts like collections, iterators, and built-in functions</li>
-            <li><strong>Algorithmic Art:</strong> Where mathematics meets creativity through code</li>
+            <li><strong>Fast PHP Tips:</strong> Quick, actionable PHP lessons and mini-tutorials delivered in minutes</li>
+            <li><strong>Clean Code Practices:</strong> Best practices for writing maintainable, professional PHP code</li>
+            <li><strong>Real-World Examples:</strong> Practical PHP solutions to common backend development challenges</li>
+            <li><strong>Backend Techniques:</strong> Deep dives into PHP fundamentals, patterns, and modern approaches</li>
+            <li><strong>Problem-Solving:</strong> Smart tricks and techniques to solve PHP development challenges efficiently</li>
           </ul>
         </section>
 
@@ -52,9 +53,9 @@ export function AboutPage() {
             Features of This Hub
           </h2>
           <ul className={styles.list}>
-            <li>Browse all Python Peak videos and Shorts in one streamlined interface</li>
+            <li>Browse all TurboLearnPHP videos and Shorts in one streamlined interface</li>
             <li>Filter content by type: all videos, full-length videos, or Shorts only</li>
-            <li>Search videos by title to find specific topics or techniques</li>
+            <li>Search videos by title to find specific PHP topics or techniques</li>
             <li>Continue watching from where you left off with automatic history tracking</li>
             <li>Queue videos for continuous learning sessions</li>
             <li>Clean, distraction-free viewing experience optimized for learning</li>
@@ -63,31 +64,31 @@ export function AboutPage() {
         </section>
 
         <section className={styles.section}>
-          <h2 className={styles.sectionTitle}>Visit Python Peak</h2>
+          <h2 className={styles.sectionTitle}>Visit TurboLearnPHP</h2>
           <p className={styles.paragraph}>
-            This hub showcases content from the Python Peak YouTube channel. For the full experience,
+            This hub showcases content from the TurboLearnPHP YouTube channel. For the full experience,
             including community interaction, playlists, and channel updates, visit the official channel:
           </p>
           <a
-            href="https://www.youtube.com/channel/UCyxR3ualvHiBvzyhx69aEIw"
+            href="https://www.youtube.com/@TurboLearnPHP"
             target="_blank"
             rel="noopener noreferrer"
             className={styles.link}
           >
             <ExternalLink size={18} />
-            Visit Python Peak on YouTube
+            Visit TurboLearnPHP on YouTube
           </a>
         </section>
 
         <section className={styles.section}>
           <h2 className={styles.sectionTitle}>About This Platform</h2>
           <p className={styles.paragraph}>
-            TubeDeck is built with React and TypeScript, running entirely in your browser with no backend required.
+            This hub is built with React and TypeScript, running entirely in your browser with no backend required.
             Videos are loaded through YouTube's public RSS feed, providing a lightweight, privacy-focused viewing experience.
           </p>
           <p className={styles.paragraph}>
             This platform intelligently detects video types using thumbnail analysis, allowing you to easily
-            filter between Python Peak's quick Shorts and more detailed tutorial videos.
+            filter between TurboLearnPHP's quick Shorts and more detailed tutorial videos.
           </p>
         </section>
       </div>
