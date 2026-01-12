@@ -36,7 +36,7 @@ export const config = {
             image: '/logo.png',
         },
         theme: {
-            default: 'dark', // 'light' | 'dark' | 'system'
+            default: 'light', // 'light' | 'dark' | 'system'
         },
         grid: {
             maxKeywordsPerCard: 3, // Keywords shown on video thumbnails
