@@ -48,7 +48,7 @@ export function FeedGrid({ items, isLoading }: FeedGridProps) {
     const verticalAdsCount = config.ads.banners.filter(b => b.format === 'vertical').length;
 
     visibleItems.forEach((item, index) => {
-      result.push(<FeedCard key={item.videoId} item={item} />);
+      result.push(<FeedCard key={item.videoId} item={item} index={index} />);
 
       // Insert ad based on config frequency
       if (
