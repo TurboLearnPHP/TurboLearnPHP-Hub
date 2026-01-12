@@ -1,20 +1,28 @@
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef, useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FeedItem } from '../../types';
 import { useClassification } from '../../hooks/useClassification';
 import { useApp } from '../../contexts/AppContext';
+import { useGridParallax } from '../../hooks/useParallax';
 import { config } from '../../config';
 import styles from './FeedCard.module.css';
 
 interface FeedCardProps {
   item: FeedItem;
+  index?: number;
 }
 
-export function FeedCard({ item }: FeedCardProps) {
+export function FeedCard({ item, index = 0 }: FeedCardProps) {
   const navigate = useNavigate();
   const { classifyItem } = useClassification();
   const { setSelectedKeyword } = useApp();
   const hasClassified = useRef(false);
+  const { ref: parallaxRef, offset } = useGridParallax(index);
+  
+  const parallaxStyle = useMemo(() => ({
+    transform: `translateY(${offset}px)`,
+    transition: 'transform 0.1s ease-out',
+  }), [offset]);
 
   useEffect(() => {
     if (item.type === 'unknown' && !hasClassified.current) {
@@ -61,7 +69,9 @@ export function FeedCard({ item }: FeedCardProps) {
 
   return (
     <article
+      ref={parallaxRef}
       className={styles.card}
+      style={parallaxStyle}
       onClick={handleClick}
       onKeyDown={handleKeyDown}
       tabIndex={0}
