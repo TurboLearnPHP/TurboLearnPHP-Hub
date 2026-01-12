@@ -11,6 +11,106 @@
  </author>
  <published>2020-01-01T00:00:00+00:00</published>
  <entry>
+  <id>yt:video:qBSSUnCQ9Bw</id>
+  <yt:videoId>qBSSUnCQ9Bw</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>What's wrong with this PHP password check?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=qBSSUnCQ9Bw"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-12T14:08:21+00:00</published>
+  <updated>2026-01-09T16:09:05+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this PHP password check?</media:title>
+   <media:content url="https://www.youtube.com/v/qBSSUnCQ9Bw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/qBSSUnCQ9Bw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this PHP password check in a login endpoint. The PHP code compares md5 hashes with ==, so magic hash values like 0e... can pass as equal. In PHP auth systems this becomes an account takeover risk.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>whats wrong with this php code, php bug, php production bug, php debugging, php backend, php code review, php security, php performance, php reliability, php api, php web development, php engineering, php magic hash, php md5, php auth bug, php type juggling</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:qSnqO39Vigw</id>
+  <yt:videoId>qSnqO39Vigw</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>How to Fix float Money Bugs With BCMath</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=qSnqO39Vigw"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-12T10:38:08+00:00</published>
+  <updated>2026-01-09T15:59:29+00:00</updated>
+  <media:group>
+   <media:title>How to Fix float Money Bugs With BCMath</media:title>
+   <media:content url="https://www.youtube.com/v/qSnqO39Vigw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/qSnqO39Vigw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Float math drifts on money and breaks totals.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>php, bcmath, money, precision, howto, finance</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:kzoUdtY3adM</id>
+  <yt:videoId>kzoUdtY3adM</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>Secret Rotation Dual Keys</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=kzoUdtY3adM"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-12T08:08:59+00:00</published>
+  <updated>2025-12-30T15:55:09+00:00</updated>
+  <media:group>
+   <media:title>Secret Rotation Dual Keys</media:title>
+   <media:content url="https://www.youtube.com/v/kzoUdtY3adM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/kzoUdtY3adM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Accept new keys without breaking old clients.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>PHP, Python, secret rotation, hmac, auth, backwards compatible, security, backend safety, reliability, viral coding</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Zqb4VxpxeQg</id>
+  <yt:videoId>Zqb4VxpxeQg</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>Why does this PHP foreach corrupt the last record?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Zqb4VxpxeQg"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-12T08:08:21+00:00</published>
+  <updated>2026-01-09T16:09:02+00:00</updated>
+  <media:group>
+   <media:title>Why does this PHP foreach corrupt the last record?</media:title>
+   <media:content url="https://www.youtube.com/v/Zqb4VxpxeQg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Zqb4VxpxeQg/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why does this PHP foreach corrupt the last record in a batch job. The PHP code loops by reference and forgets to unset the reference, so later loops overwrite the final row. In PHP pipelines this creates quiet data corruption.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>whats wrong with this php code, php bug, php production bug, php debugging, php backend, php code review, php security, php performance, php reliability, php api, php web development, php engineering, php foreach reference, php array bug, php data corruption, php logging, php mutation</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:Uett5oHrzjg</id>
   <yt:videoId>Uett5oHrzjg</yt:videoId>
   <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
@@ -671,7 +771,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-10T04:08:59+00:00</published>
-  <updated>2026-01-11T15:16:40+00:00</updated>
+  <updated>2026-01-12T12:11:11+00:00</updated>
   <media:group>
    <media:title>Refund Double Click Guard</media:title>
    <media:content url="https://www.youtube.com/v/0D5E4o6NSRI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -696,7 +796,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-10T02:08:21+00:00</published>
-  <updated>2026-01-11T18:10:05+00:00</updated>
+  <updated>2026-01-12T10:16:19+00:00</updated>
   <media:group>
    <media:title>What's wrong with this PHP expiry check?</media:title>
    <media:content url="https://www.youtube.com/v/USJB8hhhUkw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -796,7 +896,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-09T15:08:59+00:00</published>
-  <updated>2026-01-09T15:59:29+00:00</updated>
+  <updated>2026-01-12T10:15:05+00:00</updated>
   <media:group>
    <media:title>Feature Flag Kill Switch</media:title>
    <media:content url="https://www.youtube.com/v/wah5h8K4Q2c?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -921,7 +1021,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-08T13:08:59+00:00</published>
-  <updated>2026-01-09T15:59:29+00:00</updated>
+  <updated>2026-01-12T15:15:04+00:00</updated>
   <media:group>
    <media:title>Upload Filetype Allowlist</media:title>
    <media:content url="https://www.youtube.com/v/5l5Zu4OyjsI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1021,7 +1121,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-07T11:08:59+00:00</published>
-  <updated>2026-01-09T15:59:29+00:00</updated>
+  <updated>2026-01-12T12:10:05+00:00</updated>
   <media:group>
    <media:title>Outbox Event Sender</media:title>
    <media:content url="https://www.youtube.com/v/O6nJNFNrwTY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1471,7 +1571,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-04T17:04:01+00:00</published>
-  <updated>2026-01-09T15:59:29+00:00</updated>
+  <updated>2026-01-12T15:15:56+00:00</updated>
   <media:group>
    <media:title>Coupon Abuse Guard for Flash Sales</media:title>
    <media:content url="https://www.youtube.com/v/2Yk0G3PL_rY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1871,7 +1971,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-02T14:08:59+00:00</published>
-  <updated>2026-01-11T00:15:05+00:00</updated>
+  <updated>2026-01-12T12:11:09+00:00</updated>
   <media:group>
    <media:title>Bot User Agent Block</media:title>
    <media:content url="https://www.youtube.com/v/a22XpC0KTIc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1996,7 +2096,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-02T00:02:15+00:00</published>
-  <updated>2026-01-09T15:59:29+00:00</updated>
+  <updated>2026-01-12T12:11:10+00:00</updated>
   <media:group>
    <media:title>Extended Unpacking: The WILDCARD Operator *args is INSANE!</media:title>
    <media:content url="https://www.youtube.com/v/ITyt3ul_hsc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
