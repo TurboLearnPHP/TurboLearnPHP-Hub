@@ -1,9 +1,10 @@
-import { useEffect, useRef, useMemo } from 'react';
+import { useEffect, useRef, useMemo, useCallback } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FeedItem } from '../../types';
 import { useClassification } from '../../hooks/useClassification';
 import { useApp } from '../../contexts/AppContext';
 import { useGridParallax } from '../../hooks/useParallax';
+import { useTilt } from '../../hooks/useTilt';
 import { config } from '../../config';
 import styles from './FeedCard.module.css';
 
@@ -18,11 +19,22 @@ export function FeedCard({ item, index = 0 }: FeedCardProps) {
   const { setSelectedKeyword } = useApp();
   const hasClassified = useRef(false);
   const { ref: parallaxRef, offset } = useGridParallax(index);
+  const { ref: tiltRef, tiltStyle, glareStyle, handlers } = useTilt({
+    maxTilt: 12,
+    scale: 1.03,
+    perspective: 800,
+  });
+
+  // Combine refs
+  const combinedRef = useCallback((node: HTMLElement | null) => {
+    parallaxRef(node);
+    tiltRef(node);
+  }, [parallaxRef, tiltRef]);
   
-  const parallaxStyle = useMemo(() => ({
-    transform: `translateY(${offset}px)`,
-    transition: 'transform 0.1s ease-out',
-  }), [offset]);
+  const combinedStyle = useMemo(() => ({
+    ...tiltStyle,
+    transform: `translateY(${offset}px) ${tiltStyle.transform}`,
+  }), [offset, tiltStyle]);
 
   useEffect(() => {
     if (item.type === 'unknown' && !hasClassified.current) {
@@ -69,15 +81,20 @@ export function FeedCard({ item, index = 0 }: FeedCardProps) {
 
   return (
     <article
-      ref={parallaxRef}
+      ref={combinedRef}
       className={styles.card}
-      style={parallaxStyle}
+      style={combinedStyle}
       onClick={handleClick}
       onKeyDown={handleKeyDown}
+      onMouseMove={handlers.onMouseMove}
+      onMouseEnter={handlers.onMouseEnter}
+      onMouseLeave={handlers.onMouseLeave}
       tabIndex={0}
       role="button"
       aria-label={`Watch ${item.title}`}
     >
+      {/* 3D Glare overlay */}
+      <div className={styles.glareOverlay} style={glareStyle} />
       <div className={`${styles.thumbnailWrapper} ${item.type === 'short' ? styles.short : ''}`}>
         <img
           src={item.thumbnailUrl}
