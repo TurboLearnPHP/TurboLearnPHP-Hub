@@ -3,20 +3,31 @@
   flex-direction: column;
   background-color: var(--color-bg-secondary);
   border-radius: var(--radius-lg);
-  overflow: hidden;
+  overflow: visible;
   cursor: pointer;
   position: relative;
+  will-change: transform;
+  transform-style: preserve-3d;
   
-  /* Cinematic transitions */
-  transition: 
-    transform var(--transition-dramatic),
-    box-shadow var(--transition-dramatic);
+  /* Remove default hover transform - now handled by useTilt */
+  transition: box-shadow var(--transition-dramatic);
 }
 
-/* Cinematic hover state */
+/* 3D Glare overlay */
+.glareOverlay {
+  position: absolute;
+  inset: 0;
+  border-radius: var(--radius-lg);
+  pointer-events: none;
+  z-index: 20;
+  mix-blend-mode: overlay;
+}
+
+/* Cinematic hover state - only shadow now, transform handled by JS */
 .card:hover {
-  transform: translateY(-12px) scale(1.02);
-  box-shadow: var(--shadow-dramatic);
+  box-shadow: 
+    0 25px 50px -12px hsla(0, 0%, 0%, 0.5),
+    0 0 40px -8px var(--color-accent);
   z-index: 10;
 }
 
@@ -24,36 +35,32 @@
 .card::before {
   content: '';
   position: absolute;
-  inset: -1px;
+  inset: -2px;
   background: linear-gradient(
     135deg,
     var(--color-accent) 0%,
     hsla(280, 85%, 60%, 0.8) 50%,
     var(--color-accent) 100%
   );
-  border-radius: inherit;
+  border-radius: calc(var(--radius-lg) + 2px);
   z-index: -1;
   opacity: 0;
   transition: opacity var(--transition-normal);
+  filter: blur(3px);
 }
 
 .card:hover::before {
-  opacity: 1;
+  opacity: 0.8;
 }
 
 /* Inner card background to cover the gradient */
 .card::after {
   content: '';
   position: absolute;
-  inset: 1px;
+  inset: 0;
   background-color: var(--color-bg-secondary);
-  border-radius: calc(var(--radius-lg) - 1px);
+  border-radius: var(--radius-lg);
   z-index: 0;
-  transition: inset var(--transition-normal);
-}
-
-.card:hover::after {
-  inset: 2px;
 }
 
 .card:focus-visible {
@@ -68,6 +75,7 @@
   overflow: hidden;
   max-height: 500px;
   z-index: 1;
+  border-radius: var(--radius-lg);
 }
 
 .thumbnailWrapper.short {
