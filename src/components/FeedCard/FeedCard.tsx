@@ -130,8 +130,10 @@ export function FeedCard({ item, index = 0 }: FeedCardProps) {
 export function FeedCardSkeleton() {
   return (
     <div className={`${styles.card} ${styles.skeleton}`} aria-hidden="true">
-      <div className={styles.thumbnailWrapper} />
-      <div className={styles.content}>
+      <div className={styles.thumbnailWrapper}>
+        <div className={styles.skeletonShimmer} />
+      </div>
+      <div className={styles.skeletonContent}>
         <div className={styles.skeletonTitle} />
         <div className={styles.skeletonMeta} />
       </div>
