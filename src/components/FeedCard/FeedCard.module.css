@@ -259,32 +259,103 @@
 /* Skeleton styles */
 .skeleton {
   pointer-events: none;
+  overflow: hidden;
 }
 
 .skeleton .thumbnailWrapper {
+  background-color: var(--color-skeleton);
+  overflow: hidden;
+}
+
+.skeletonShimmer {
+  position: absolute;
+  inset: 0;
   background: linear-gradient(
     90deg,
-    var(--color-skeleton) 0%,
-    var(--color-skeleton-shine) 50%,
-    var(--color-skeleton) 100%
+    transparent 0%,
+    hsla(0, 0%, 100%, 0.08) 20%,
+    hsla(0, 0%, 100%, 0.15) 50%,
+    hsla(0, 0%, 100%, 0.08) 80%,
+    transparent 100%
   );
-  background-size: 400% 100%;
-  animation: skeleton-shine 2s ease-in-out infinite;
+  animation: shimmer-slide 2s ease-in-out infinite;
+}
+
+@keyframes shimmer-slide {
+  0% { transform: translateX(-100%); }
+  100% { transform: translateX(100%); }
+}
+
+.skeletonContent {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: var(--space-md);
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-sm);
+  z-index: 3;
+  background: linear-gradient(
+    to top, 
+    hsla(0, 0%, 0%, 0.9) 0%, 
+    hsla(0, 0%, 0%, 0.6) 60%,
+    transparent 100%
+  );
 }
 
 .skeletonTitle {
-  height: 20px;
-  width: 90%;
-  background-color: var(--color-skeleton);
+  height: 16px;
+  width: 85%;
+  background: linear-gradient(
+    90deg,
+    hsla(0, 0%, 100%, 0.1) 0%,
+    hsla(0, 0%, 100%, 0.15) 50%,
+    hsla(0, 0%, 100%, 0.1) 100%
+  );
   border-radius: var(--radius-sm);
-  animation: skeleton-pulse 2s ease-in-out infinite;
+  position: relative;
+  overflow: hidden;
+}
+
+.skeletonTitle::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    hsla(0, 0%, 100%, 0.2) 50%,
+    transparent 100%
+  );
+  animation: shimmer-slide 2s ease-in-out infinite;
+  animation-delay: 0.1s;
 }
 
 .skeletonMeta {
-  height: 16px;
-  width: 60%;
-  background-color: var(--color-skeleton);
+  height: 12px;
+  width: 50%;
+  background: linear-gradient(
+    90deg,
+    hsla(0, 0%, 100%, 0.08) 0%,
+    hsla(0, 0%, 100%, 0.12) 50%,
+    hsla(0, 0%, 100%, 0.08) 100%
+  );
   border-radius: var(--radius-sm);
-  animation: skeleton-pulse 2s ease-in-out infinite;
+  position: relative;
+  overflow: hidden;
+}
+
+.skeletonMeta::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    hsla(0, 0%, 100%, 0.2) 50%,
+    transparent 100%
+  );
+  animation: shimmer-slide 2s ease-in-out infinite;
   animation-delay: 0.3s;
 }
