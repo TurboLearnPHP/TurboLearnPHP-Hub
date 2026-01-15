@@ -1,5 +1,6 @@
-import { useEffect, useRef, useMemo, useCallback } from 'react';
+import { useEffect, useRef, useMemo, useCallback, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { Play } from 'lucide-react';
 import { FeedItem } from '../../types';
 import { useClassification } from '../../hooks/useClassification';
 import { useApp } from '../../contexts/AppContext';
@@ -18,8 +19,11 @@ export function FeedCard({ item, index = 0 }: FeedCardProps) {
   const { classifyItem } = useClassification();
   const { setSelectedKeyword } = useApp();
   const hasClassified = useRef(false);
+  const [isHovering, setIsHovering] = useState(false);
+  const [showVideo, setShowVideo] = useState(false);
+  const hoverTimeoutRef = useRef<NodeJS.Timeout | null>(null);
   const { ref: parallaxRef, offset } = useGridParallax(index);
-  const { ref: tiltRef, tiltStyle, glareStyle, handlers } = useTilt({
+  const { ref: tiltRef, tiltStyle, glareStyle, handlers: tiltHandlers } = useTilt({
     maxTilt: 12,
     scale: 1.03,
     perspective: 800,
@@ -30,6 +34,35 @@ export function FeedCard({ item, index = 0 }: FeedCardProps) {
     parallaxRef(node);
     tiltRef(node);
   }, [parallaxRef, tiltRef]);
+
+  // Handle hover with delay for video preview
+  const handleMouseEnter = useCallback(() => {
+    setIsHovering(true);
+    tiltHandlers.onMouseEnter();
+    // Delay video load to prevent accidental triggers
+    hoverTimeoutRef.current = setTimeout(() => {
+      setShowVideo(true);
+    }, 800);
+  }, [tiltHandlers]);
+
+  const handleMouseLeave = useCallback(() => {
+    setIsHovering(false);
+    setShowVideo(false);
+    tiltHandlers.onMouseLeave();
+    if (hoverTimeoutRef.current) {
+      clearTimeout(hoverTimeoutRef.current);
+      hoverTimeoutRef.current = null;
+    }
+  }, [tiltHandlers]);
+
+  // Cleanup timeout on unmount
+  useEffect(() => {
+    return () => {
+      if (hoverTimeoutRef.current) {
+        clearTimeout(hoverTimeoutRef.current);
+      }
+    };
+  }, []);
   
   const combinedStyle = useMemo(() => ({
     ...tiltStyle,
@@ -79,16 +112,21 @@ export function FeedCard({ item, index = 0 }: FeedCardProps) {
     }
   };
 
+  // Get YouTube embed URL for preview
+  const embedUrl = useMemo(() => {
+    return `https://www.youtube.com/embed/${item.videoId}?autoplay=1&mute=1&controls=0&showinfo=0&rel=0&loop=1&playlist=${item.videoId}&modestbranding=1&playsinline=1`;
+  }, [item.videoId]);
+
   return (
     <article
       ref={combinedRef}
-      className={styles.card}
+      className={`${styles.card} ${isHovering ? styles.hovering : ''}`}
       style={combinedStyle}
       onClick={handleClick}
       onKeyDown={handleKeyDown}
-      onMouseMove={handlers.onMouseMove}
-      onMouseEnter={handlers.onMouseEnter}
-      onMouseLeave={handlers.onMouseLeave}
+      onMouseMove={tiltHandlers.onMouseMove}
+      onMouseEnter={handleMouseEnter}
+      onMouseLeave={handleMouseLeave}
       tabIndex={0}
       role="button"
       aria-label={`Watch ${item.title}`}
@@ -99,9 +137,32 @@ export function FeedCard({ item, index = 0 }: FeedCardProps) {
         <img
           src={item.thumbnailUrl}
           alt=""
-          className={styles.thumbnail}
+          className={`${styles.thumbnail} ${showVideo ? styles.thumbnailHidden : ''}`}
           loading="lazy"
         />
+        
+        {/* Video preview on hover */}
+        {showVideo && (
+          <div className={styles.videoPreview}>
+            <iframe
+              src={embedUrl}
+              title={`Preview: ${item.title}`}
+              allow="autoplay; encrypted-media"
+              allowFullScreen
+              className={styles.videoIframe}
+            />
+          </div>
+        )}
+
+        {/* Play icon indicator while loading video */}
+        {isHovering && !showVideo && (
+          <div className={styles.playIndicator}>
+            <div className={styles.playIconWrapper}>
+              <Play className={styles.playIcon} />
+            </div>
+          </div>
+        )}
+
         {item.keywords && item.keywords.length > 0 && (
           <div className={styles.videoBadges}>
             {item.keywords.slice(0, config.ui.grid.maxKeywordsPerCard).map((keyword, idx) => (
