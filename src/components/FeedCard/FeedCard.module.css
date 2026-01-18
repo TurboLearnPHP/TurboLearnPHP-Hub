@@ -147,43 +147,102 @@
   justify-content: center;
   z-index: 5;
   pointer-events: none;
+  animation: fadeInIndicator 0.3s ease forwards;
+}
+
+@keyframes fadeInIndicator {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }
 
 .playIconWrapper {
-  width: 60px;
-  height: 60px;
+  width: 70px;
+  height: 70px;
   border-radius: 50%;
-  background: hsla(0, 0%, 0%, 0.7);
-  backdrop-filter: blur(8px);
+  background: linear-gradient(135deg, hsla(0, 0%, 0%, 0.8) 0%, hsla(0, 0%, 20%, 0.7) 100%);
+  backdrop-filter: blur(12px);
   display: flex;
   align-items: center;
   justify-content: center;
   animation: pulsePlay 1.2s ease-in-out infinite;
+  position: relative;
   box-shadow: 
-    0 0 20px hsla(var(--accent), 0.4),
-    0 0 40px hsla(var(--accent), 0.2);
+    0 0 30px var(--color-accent-glow),
+    0 0 60px hsla(8, 85%, 60%, 0.2),
+    inset 0 0 20px hsla(0, 0%, 100%, 0.1);
+}
+
+/* Rotating ring around play button */
+.playIconWrapper::before {
+  content: '';
+  position: absolute;
+  inset: -4px;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  border-top-color: var(--color-accent);
+  border-right-color: var(--color-accent);
+  animation: rotate-ring 1s linear infinite;
+}
+
+@keyframes rotate-ring {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+/* Outer glow ring */
+.playIconWrapper::after {
+  content: '';
+  position: absolute;
+  inset: -8px;
+  border-radius: 50%;
+  border: 1px solid hsla(8, 85%, 60%, 0.3);
+  animation: pulse-ring 1.5s ease-out infinite;
+}
+
+@keyframes pulse-ring {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
 }
 
 @keyframes pulsePlay {
   0%, 100% {
     transform: scale(1);
     box-shadow: 
-      0 0 20px hsla(var(--accent), 0.4),
-      0 0 40px hsla(var(--accent), 0.2);
+      0 0 30px var(--color-accent-glow),
+      0 0 60px hsla(8, 85%, 60%, 0.2);
   }
   50% {
-    transform: scale(1.1);
+    transform: scale(1.08);
     box-shadow: 
-      0 0 30px hsla(var(--accent), 0.6),
-      0 0 60px hsla(var(--accent), 0.3);
+      0 0 40px var(--color-accent-glow),
+      0 0 80px hsla(8, 85%, 60%, 0.3);
   }
 }
 
 .playIcon {
-  width: 28px;
-  height: 28px;
+  width: 32px;
+  height: 32px;
   color: white;
   margin-left: 4px;
+  filter: drop-shadow(0 2px 4px hsla(0, 0%, 0%, 0.3));
+  animation: icon-breathe 2s ease-in-out infinite;
+}
+
+@keyframes icon-breathe {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
 }
 
 /* Hovering state enhancements */
