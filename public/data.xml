@@ -11,6 +11,1206 @@
  </author>
  <published>2020-01-01T00:00:00+00:00</published>
  <entry>
+  <id>yt:video:hK5bApChyl8</id>
+  <yt:videoId>hK5bApChyl8</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>How to Avoid require_once Path Confusion</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=hK5bApChyl8"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-18T00:37:15+00:00</published>
+  <updated>2026-01-12T11:38:05+00:00</updated>
+  <media:group>
+   <media:title>How to Avoid require_once Path Confusion</media:title>
+   <media:content url="https://www.youtube.com/v/hK5bApChyl8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/hK5bApChyl8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Relative paths break when scripts run from new locations.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>php, require_once, paths, howto, bug, filesystem</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:0maBsZfm-tU</id>
+  <yt:videoId>0maBsZfm-tU</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>How to Fix json_encode Failing on Bad UTF-8</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=0maBsZfm-tU"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-17T15:37:15+00:00</published>
+  <updated>2026-01-12T11:38:02+00:00</updated>
+  <media:group>
+   <media:title>How to Fix json_encode Failing on Bad UTF-8</media:title>
+   <media:content url="https://www.youtube.com/v/0maBsZfm-tU?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/0maBsZfm-tU/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Invalid bytes return false and kill API output.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>php, json_encode, utf-8, api, howto, bug</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:B_6B7EpkmPo</id>
+  <yt:videoId>B_6B7EpkmPo</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>What's wrong with this PHP query parser?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=B_6B7EpkmPo"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-17T15:29:58+00:00</published>
+  <updated>2026-01-12T11:30:48+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this PHP query parser?</media:title>
+   <media:content url="https://www.youtube.com/v/B_6B7EpkmPo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/B_6B7EpkmPo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this PHP query parser in a routing layer. The PHP code calls parse_str without a target array, which injects variables into scope. In PHP services this lets attackers override flags and IDs.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>whats wrong with this php code, php bug, php production bug, php debugging, php backend, php code review, php security, php performance, php reliability, php api, php web development, php engineering, php parse_str, php query string, php variable injection, php globals</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:AN-xeKJmJGI</id>
+  <yt:videoId>AN-xeKJmJGI</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>How to Prevent array_column From Dropping Duplicates</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=AN-xeKJmJGI"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-17T06:37:15+00:00</published>
+  <updated>2026-01-12T11:37:58+00:00</updated>
+  <media:group>
+   <media:title>How to Prevent array_column From Dropping Duplicates</media:title>
+   <media:content url="https://www.youtube.com/v/AN-xeKJmJGI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/AN-xeKJmJGI/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Duplicate keys get overwritten silently.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>php, array_column, duplicates, bug, howto, arrays</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:EL1sEjq90Fo</id>
+  <yt:videoId>EL1sEjq90Fo</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>What's wrong with this PHP transfer?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=EL1sEjq90Fo"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-17T06:29:58+00:00</published>
+  <updated>2026-01-17T12:10:49+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this PHP transfer?</media:title>
+   <media:content url="https://www.youtube.com/v/EL1sEjq90Fo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/EL1sEjq90Fo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this PHP transfer between accounts. The PHP code updates two balances without a transaction, so crashes leave money missing or duplicated. In PHP finance services this breaks ledger integrity.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>whats wrong with this php code, php bug, php production bug, php debugging, php backend, php code review, php security, php performance, php reliability, php api, php web development, php engineering, php transaction bug, php money transfer, php database, php consistency, php finance</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:diGFAn8uKhE</id>
+  <yt:videoId>diGFAn8uKhE</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>How to Avoid array_flip Losing Duplicate Values</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=diGFAn8uKhE"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-16T21:37:15+00:00</published>
+  <updated>2026-01-12T11:37:55+00:00</updated>
+  <media:group>
+   <media:title>How to Avoid array_flip Losing Duplicate Values</media:title>
+   <media:content url="https://www.youtube.com/v/diGFAn8uKhE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/diGFAn8uKhE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>array_flip overwrites duplicates silently.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>php, array_flip, duplicates, bug, howto, arrays</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:EZQhzNYJgRs</id>
+  <yt:videoId>EZQhzNYJgRs</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>Why are these PHP tokens predictable?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=EZQhzNYJgRs"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-16T21:29:58+00:00</published>
+  <updated>2026-01-12T11:30:41+00:00</updated>
+  <media:group>
+   <media:title>Why are these PHP tokens predictable?</media:title>
+   <media:content url="https://www.youtube.com/v/EZQhzNYJgRs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/EZQhzNYJgRs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why are these PHP tokens predictable in production. The PHP code uses uniqid for session tokens, which is based on time and can be guessed. In PHP auth systems this enables session hijacking.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>whats wrong with this php code, php bug, php production bug, php debugging, php backend, php code review, php security, php performance, php reliability, php api, php web development, php engineering, php token bug, php uniqid, php auth, predictable tokens</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:vbV024fdP_Q</id>
+  <yt:videoId>vbV024fdP_Q</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>How to Block XSS With htmlspecialchars</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=vbV024fdP_Q"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-16T12:37:15+00:00</published>
+  <updated>2026-01-12T11:37:52+00:00</updated>
+  <media:group>
+   <media:title>How to Block XSS With htmlspecialchars</media:title>
+   <media:content url="https://www.youtube.com/v/vbV024fdP_Q?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/vbV024fdP_Q/hqdefault.jpg" width="480" height="360"/>
+   <media:description>One echo can turn comments into scripts.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>php, xss, htmlspecialchars, security, howto, output escaping</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:fC9CZEktTaM</id>
+  <yt:videoId>fC9CZEktTaM</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>What's wrong with this PHP regex?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=fC9CZEktTaM"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-16T12:29:58+00:00</published>
+  <updated>2026-01-12T11:30:38+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this PHP regex?</media:title>
+   <media:content url="https://www.youtube.com/v/fC9CZEktTaM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/fC9CZEktTaM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this PHP regex in a validation endpoint. The PHP pattern has catastrophic backtracking, so a single input can hang a worker. In PHP services this is a trivial denial of service.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>whats wrong with this php code, php bug, php production bug, php debugging, php backend, php code review, php security, php performance, php reliability, php api, php web development, php engineering, php regex dos, php backtracking, php input validation</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:y22LZvuLMGY</id>
+  <yt:videoId>y22LZvuLMGY</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>How to Prevent file_put_contents From Clobbering Logs</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=y22LZvuLMGY"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-16T03:37:15+00:00</published>
+  <updated>2026-01-12T11:37:48+00:00</updated>
+  <media:group>
+   <media:title>How to Prevent file_put_contents From Clobbering Logs</media:title>
+   <media:content url="https://www.youtube.com/v/y22LZvuLMGY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/y22LZvuLMGY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Without FILE_APPEND, each write overwrites.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>php, file_put_contents, logging, howto, bug, filesystem</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:4ldod9GIsMA</id>
+  <yt:videoId>4ldod9GIsMA</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>Why does this PHP gzip handler crash servers?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=4ldod9GIsMA"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-16T03:29:58+00:00</published>
+  <updated>2026-01-16T15:15:05+00:00</updated>
+  <media:group>
+   <media:title>Why does this PHP gzip handler crash servers?</media:title>
+   <media:content url="https://www.youtube.com/v/4ldod9GIsMA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/4ldod9GIsMA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why does this PHP gzip handler crash servers on small inputs. The PHP code inflates compressed data without size limits, so a tiny payload can explode memory. In PHP webhooks this becomes a denial of service.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>whats wrong with this php code, php bug, php production bug, php debugging, php backend, php code review, php security, php performance, php reliability, php api, php web development, php engineering, php gzip bomb, php decompression, php memory, php webhook</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:7Kf0-pYkWFc</id>
+  <yt:videoId>7Kf0-pYkWFc</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>How to Avoid serialize Storing Secrets in Plaintext</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=7Kf0-pYkWFc"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-15T18:37:15+00:00</published>
+  <updated>2026-01-12T11:37:45+00:00</updated>
+  <media:group>
+   <media:title>How to Avoid serialize Storing Secrets in Plaintext</media:title>
+   <media:content url="https://www.youtube.com/v/7Kf0-pYkWFc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/7Kf0-pYkWFc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>serialize writes secrets that can be copied or leaked.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>php, serialize, secrets, security, howto, data</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:jO6F_jcA508</id>
+  <yt:videoId>jO6F_jcA508</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>What's wrong with this PHP SSL setting?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=jO6F_jcA508"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-15T18:29:58+00:00</published>
+  <updated>2026-01-12T11:30:31+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this PHP SSL setting?</media:title>
+   <media:content url="https://www.youtube.com/v/jO6F_jcA508?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/jO6F_jcA508/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this PHP SSL setting in a payment client. The PHP code disables certificate verification, which makes HTTPS vulnerable to MITM. In PHP services this exposes credentials and PII.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>whats wrong with this php code, php bug, php production bug, php debugging, php backend, php code review, php security, php performance, php reliability, php api, php web development, php engineering, php ssl verify, php curl, php mitm, php https</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:4feOp2r0aMM</id>
+  <yt:videoId>4feOp2r0aMM</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>How to Avoid count on Non-Countable Values</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=4feOp2r0aMM"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-15T09:37:15+00:00</published>
+  <updated>2026-01-12T11:37:42+00:00</updated>
+  <media:group>
+   <media:title>How to Avoid count on Non-Countable Values</media:title>
+   <media:content url="https://www.youtube.com/v/4feOp2r0aMM?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/4feOp2r0aMM/hqdefault.jpg" width="480" height="360"/>
+   <media:description>count on null throws warnings in production.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>php, count, warning, howto, bug, null</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:k2rUM9YJ03g</id>
+  <yt:videoId>k2rUM9YJ03g</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>Why does this PHP pagination skip rows?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=k2rUM9YJ03g"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-15T09:29:58+00:00</published>
+  <updated>2026-01-12T11:30:27+00:00</updated>
+  <media:group>
+   <media:title>Why does this PHP pagination skip rows?</media:title>
+   <media:content url="https://www.youtube.com/v/k2rUM9YJ03g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/k2rUM9YJ03g/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why does this PHP pagination skip rows in a busy table. The PHP code uses offset pagination while new rows are inserted, so records move between pages. In PHP APIs this causes missing and duplicated items.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>whats wrong with this php code, php bug, php production bug, php debugging, php backend, php code review, php security, php performance, php reliability, php api, php web development, php engineering, php pagination bug, php offset pagination, php database, php data loss</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:022LKi89rNY</id>
+  <yt:videoId>022LKi89rNY</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>Cross Region Failover</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=022LKi89rNY"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-15T01:08:59+00:00</published>
+  <updated>2025-12-30T15:55:09+00:00</updated>
+  <media:group>
+   <media:title>Cross Region Failover</media:title>
+   <media:content url="https://www.youtube.com/v/022LKi89rNY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/022LKi89rNY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Auto-switch regions when latency spikes.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>PHP, Python, failover, multi-region, latency, reliability, backend safety, performance, sre, viral coding</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:hy5Gpd3r0uE</id>
+  <yt:videoId>hy5Gpd3r0uE</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>How to Stop extract From Overwriting Variables</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=hy5Gpd3r0uE"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-15T00:37:15+00:00</published>
+  <updated>2026-01-17T10:15:04+00:00</updated>
+  <media:group>
+   <media:title>How to Stop extract From Overwriting Variables</media:title>
+   <media:content url="https://www.youtube.com/v/hy5Gpd3r0uE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/hy5Gpd3r0uE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>extract can silently replace real variables.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>php, extract, security, overwrite, howto, bug</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:0V_39hX_sY8</id>
+  <yt:videoId>0V_39hX_sY8</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>Why does this PHP DateTime loop drift?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=0V_39hX_sY8"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-15T00:29:58+00:00</published>
+  <updated>2026-01-12T11:30:24+00:00</updated>
+  <media:group>
+   <media:title>Why does this PHP DateTime loop drift?</media:title>
+   <media:content url="https://www.youtube.com/v/0V_39hX_sY8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/0V_39hX_sY8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why does this PHP DateTime loop drift in a scheduling job. The PHP code calls modify on the same instance and later uses it as the original start time. In PHP jobs this shifts every window and breaks reporting.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>whats wrong with this php code, php bug, php production bug, php debugging, php backend, php code review, php security, php performance, php reliability, php api, php web development, php engineering, php datetime mutate, php scheduling bug, php reports, php time window</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:d2gjUs2cuN8</id>
+  <yt:videoId>d2gjUs2cuN8</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>F-Strings vs String Interpolation: The ULTIMATE Battle!</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=d2gjUs2cuN8"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-14T20:02:15+00:00</published>
+  <updated>2026-01-09T15:59:29+00:00</updated>
+  <media:group>
+   <media:title>F-Strings vs String Interpolation: The ULTIMATE Battle!</media:title>
+   <media:content url="https://www.youtube.com/v/d2gjUs2cuN8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/d2gjUs2cuN8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Python's f-strings vs PHP's string interpolation - which language wins the formatting war? INSANE!</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>PHP, Python, php vs python, f-strings, string interpolation, formatting, string formatting, viral coding, python 3.6, modern python, syntax comparison, coding tricks</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ynCSYY-alx0</id>
+  <yt:videoId>ynCSYY-alx0</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>How to Generate Cryptographically Safe Tokens</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ynCSYY-alx0"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-14T15:37:15+00:00</published>
+  <updated>2026-01-12T11:37:35+00:00</updated>
+  <media:group>
+   <media:title>How to Generate Cryptographically Safe Tokens</media:title>
+   <media:content url="https://www.youtube.com/v/ynCSYY-alx0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/ynCSYY-alx0/hqdefault.jpg" width="480" height="360"/>
+   <media:description>random_bytes beats predictable tokens every time.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>php, random_bytes, tokens, security, howto, auth</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:XMBXoJZjxPY</id>
+  <yt:videoId>XMBXoJZjxPY</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>Why is this PHP URL fetch a security hole?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=XMBXoJZjxPY"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-14T15:29:58+00:00</published>
+  <updated>2026-01-17T20:15:46+00:00</updated>
+  <media:group>
+   <media:title>Why is this PHP URL fetch a security hole?</media:title>
+   <media:content url="https://www.youtube.com/v/XMBXoJZjxPY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/XMBXoJZjxPY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why is this PHP URL fetch a security hole in production. The PHP code fetches a user supplied URL with file_get_contents, enabling SSRF to internal services. In PHP backends this can expose metadata and secrets.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>whats wrong with this php code, php bug, php production bug, php debugging, php backend, php code review, php security, php performance, php reliability, php api, php web development, php engineering, php ssrf, php url fetch, php metadata, php internal network</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:cI-j4uwcrK4</id>
+  <yt:videoId>cI-j4uwcrK4</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>Duplicate Payout Guard</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=cI-j4uwcrK4"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-14T12:08:59+00:00</published>
+  <updated>2026-01-16T18:10:50+00:00</updated>
+  <media:group>
+   <media:title>Duplicate Payout Guard</media:title>
+   <media:content url="https://www.youtube.com/v/cI-j4uwcrK4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/cI-j4uwcrK4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Stop double payouts with idempotent payout IDs.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>PHP, Python, payouts, idempotency, payments, fraud, backend safety, security, reliability, viral coding</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:EYPueFLdw5w</id>
+  <yt:videoId>EYPueFLdw5w</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>How to Avoid foreach Reference Leaks Across Loops</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=EYPueFLdw5w"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-14T10:38:08+00:00</published>
+  <updated>2026-01-17T15:16:09+00:00</updated>
+  <media:group>
+   <media:title>How to Avoid foreach Reference Leaks Across Loops</media:title>
+   <media:content url="https://www.youtube.com/v/EYPueFLdw5w?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/EYPueFLdw5w/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A reference from one loop can corrupt the next.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>php, foreach, reference, bug, howto, arrays</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:k8ouLh94GP4</id>
+  <yt:videoId>k8ouLh94GP4</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>How to Avoid array_rand Returning a String</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=k8ouLh94GP4"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-14T06:37:15+00:00</published>
+  <updated>2026-01-12T11:37:32+00:00</updated>
+  <media:group>
+   <media:title>How to Avoid array_rand Returning a String</media:title>
+   <media:content url="https://www.youtube.com/v/k8ouLh94GP4?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/k8ouLh94GP4/hqdefault.jpg" width="480" height="360"/>
+   <media:description>array_rand returns a string for one item.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>php, array_rand, arrays, bug, howto, random</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:e4JN1Py5Kuw</id>
+  <yt:videoId>e4JN1Py5Kuw</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>Why is this PHP temp file creation risky?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=e4JN1Py5Kuw"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-14T06:29:58+00:00</published>
+  <updated>2026-01-12T11:30:16+00:00</updated>
+  <media:group>
+   <media:title>Why is this PHP temp file creation risky?</media:title>
+   <media:content url="https://www.youtube.com/v/e4JN1Py5Kuw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/e4JN1Py5Kuw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why is this PHP temp file creation risky in a report worker. The PHP code writes to a predictable path in /tmp, which can be hijacked with symlinks. In PHP servers this can overwrite sensitive files.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>whats wrong with this php code, php bug, php production bug, php debugging, php backend, php code review, php security, php performance, php reliability, php api, php web development, php engineering, php temp file, php symlink attack, php file security, php uploads, php os</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:KztC7frMN-Y</id>
+  <yt:videoId>KztC7frMN-Y</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>How to Avoid array_merge Reindexing Your Keys</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=KztC7frMN-Y"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-14T04:38:08+00:00</published>
+  <updated>2026-01-09T15:59:29+00:00</updated>
+  <media:group>
+   <media:title>How to Avoid array_merge Reindexing Your Keys</media:title>
+   <media:content url="https://www.youtube.com/v/KztC7frMN-Y?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/KztC7frMN-Y/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Numeric keys get rewritten and ruin mapping.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>php, array_merge, keys, bug, howto, arrays</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:fZ8sx2zoF5c</id>
+  <yt:videoId>fZ8sx2zoF5c</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>Login IP Bruteforce Window</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=fZ8sx2zoF5c"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-13T23:08:59+00:00</published>
+  <updated>2026-01-16T12:10:05+00:00</updated>
+  <media:group>
+   <media:title>Login IP Bruteforce Window</media:title>
+   <media:content url="https://www.youtube.com/v/fZ8sx2zoF5c?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/fZ8sx2zoF5c/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Stop IP-based attacks with sliding windows.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>PHP, Python, login, bruteforce, ip, rate limiting, security, backend safety, reliability, viral coding</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:bew7qYCVfjE</id>
+  <yt:videoId>bew7qYCVfjE</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>How to Prevent preg_match Catastrophic Backtracking</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=bew7qYCVfjE"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-13T22:38:08+00:00</published>
+  <updated>2026-01-09T15:59:29+00:00</updated>
+  <media:group>
+   <media:title>How to Prevent preg_match Catastrophic Backtracking</media:title>
+   <media:content url="https://www.youtube.com/v/bew7qYCVfjE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/bew7qYCVfjE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>One regex can lock up a worker.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>php, regex, redos, performance, howto, security</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:SSbCvMSXeik</id>
+  <yt:videoId>SSbCvMSXeik</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>Generator Expressions: Memory-Efficient MAGIC!</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=SSbCvMSXeik"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-13T22:02:15+00:00</published>
+  <updated>2026-01-09T15:59:29+00:00</updated>
+  <media:group>
+   <media:title>Generator Expressions: Memory-Efficient MAGIC!</media:title>
+   <media:content url="https://www.youtube.com/v/SSbCvMSXeik?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/SSbCvMSXeik/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Python's generator expressions vs PHP's generators - which saves more memory? INSANE results!</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>PHP, Python, php vs python, generators, generator expressions, yield, lazy evaluation, memory efficiency, viral coding, python magic, mind blown, performance</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Lv6CoyG27ig</id>
+  <yt:videoId>Lv6CoyG27ig</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>How to Catch Division by Zero Early</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Lv6CoyG27ig"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-13T21:37:15+00:00</published>
+  <updated>2026-01-12T11:37:29+00:00</updated>
+  <media:group>
+   <media:title>How to Catch Division by Zero Early</media:title>
+   <media:content url="https://www.youtube.com/v/Lv6CoyG27ig?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Lv6CoyG27ig/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Division by zero can crash a report in production.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>php, division, runtime error, howto, bug, validation</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:WCt4Lo-OFmE</id>
+  <yt:videoId>WCt4Lo-OFmE</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>What's wrong with this PHP array merge for IDs?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=WCt4Lo-OFmE"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-13T21:29:58+00:00</published>
+  <updated>2026-01-12T11:30:13+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this PHP array merge for IDs?</media:title>
+   <media:content url="https://www.youtube.com/v/WCt4Lo-OFmE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/WCt4Lo-OFmE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this PHP array merge for IDs. The PHP code uses array_merge on numeric keys, which reindexes and loses the original IDs. In PHP data pipelines this maps records to the wrong entities.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>whats wrong with this php code, php bug, php production bug, php debugging, php backend, php code review, php security, php performance, php reliability, php api, php web development, php engineering, php array merge, php numeric keys, php id mismatch, php data corruption, php arrays</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:xgtVD7yHreo</id>
+  <yt:videoId>xgtVD7yHreo</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>How to Stop PHP Loose Comparisons From Bypassing Logins</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=xgtVD7yHreo"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-13T16:38:08+00:00</published>
+  <updated>2026-01-09T15:59:29+00:00</updated>
+  <media:group>
+   <media:title>How to Stop PHP Loose Comparisons From Bypassing Logins</media:title>
+   <media:content url="https://www.youtube.com/v/xgtVD7yHreo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/xgtVD7yHreo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>A string that looks like zero can slip past checks.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>php, loose comparison, type juggling, security, howto, authentication</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:izqLCB88BYw</id>
+  <yt:videoId>izqLCB88BYw</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>How to Fix Headers Already Sent Errors</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=izqLCB88BYw"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-13T12:37:15+00:00</published>
+  <updated>2026-01-12T11:37:26+00:00</updated>
+  <media:group>
+   <media:title>How to Fix Headers Already Sent Errors</media:title>
+   <media:content url="https://www.youtube.com/v/izqLCB88BYw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/izqLCB88BYw/hqdefault.jpg" width="480" height="360"/>
+   <media:description>One stray echo breaks redirects and cookies.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>php, headers, buffering, bug, howto, http</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:3Kyoq5GHHZE</id>
+  <yt:videoId>3Kyoq5GHHZE</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>Why does this PHP form handler allow privilege escalation?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=3Kyoq5GHHZE"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-13T12:29:58+00:00</published>
+  <updated>2026-01-12T11:30:10+00:00</updated>
+  <media:group>
+   <media:title>Why does this PHP form handler allow privilege escalation?</media:title>
+   <media:content url="https://www.youtube.com/v/3Kyoq5GHHZE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/3Kyoq5GHHZE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why does this PHP form handler allow privilege escalation. The PHP code uses extract on user input, which can overwrite trusted variables. In PHP admin panels this grants access by sending a crafted field.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>whats wrong with this php code, php bug, php production bug, php debugging, php backend, php code review, php security, php performance, php reliability, php api, php web development, php engineering, php extract, php privilege escalation, php form handler, php variable overwrite</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:o6_C-tIVlvo</id>
+  <yt:videoId>o6_C-tIVlvo</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>How to Prevent 0e Hashes From Passing Equality Checks</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=o6_C-tIVlvo"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-13T10:38:08+00:00</published>
+  <updated>2026-01-17T20:15:07+00:00</updated>
+  <media:group>
+   <media:title>How to Prevent 0e Hashes From Passing Equality Checks</media:title>
+   <media:content url="https://www.youtube.com/v/o6_C-tIVlvo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/o6_C-tIVlvo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Scientific notation strings can trick hash checks.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>php, hash bypass, security, type juggling, howto, authentication</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:FwKCy-9u568</id>
+  <yt:videoId>FwKCy-9u568</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>API Payload Size Guard</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=FwKCy-9u568"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-13T10:08:59+00:00</published>
+  <updated>2026-01-14T18:12:41+00:00</updated>
+  <media:group>
+   <media:title>API Payload Size Guard</media:title>
+   <media:content url="https://www.youtube.com/v/FwKCy-9u568?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/FwKCy-9u568/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Reject oversized requests before they melt your servers.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>PHP, Python, api, payload size, ddos, reliability, backend safety, performance, security, viral coding</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:mk300QwMmnQ</id>
+  <yt:videoId>mk300QwMmnQ</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>What's wrong with this PHP upload path?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=mk300QwMmnQ"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-13T08:08:21+00:00</published>
+  <updated>2026-01-09T16:09:17+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this PHP upload path?</media:title>
+   <media:content url="https://www.youtube.com/v/mk300QwMmnQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/mk300QwMmnQ/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this PHP upload path in a media service. The PHP code trusts the original filename and writes it directly, enabling path traversal. In PHP backends this can overwrite sensitive files.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>whats wrong with this php code, php bug, php production bug, php debugging, php backend, php code review, php security, php performance, php reliability, php api, php web development, php engineering, php upload bug, php path traversal, php file upload, php web app</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:hd_jttCuiRs</id>
+  <yt:videoId>hd_jttCuiRs</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>How to Stop DateTime From Using the Wrong Timezone</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=hd_jttCuiRs"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-13T04:38:08+00:00</published>
+  <updated>2026-01-17T15:15:04+00:00</updated>
+  <media:group>
+   <media:title>How to Stop DateTime From Using the Wrong Timezone</media:title>
+   <media:content url="https://www.youtube.com/v/hd_jttCuiRs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/hd_jttCuiRs/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Timezone defaults can flip comparisons in production.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>php, datetime, timezone, bug, howto, production</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:g2_nXTT8zfo</id>
+  <yt:videoId>g2_nXTT8zfo</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>How to Stop array_slice From Dropping Keys</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=g2_nXTT8zfo"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-13T03:37:15+00:00</published>
+  <updated>2026-01-12T11:37:23+00:00</updated>
+  <media:group>
+   <media:title>How to Stop array_slice From Dropping Keys</media:title>
+   <media:content url="https://www.youtube.com/v/g2_nXTT8zfo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/g2_nXTT8zfo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>array_slice resets keys unless you opt in.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>php, array_slice, keys, bug, howto, arrays</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:HytRc0gwipo</id>
+  <yt:videoId>HytRc0gwipo</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>What's wrong with this PHP retry backoff?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=HytRc0gwipo"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-13T03:29:58+00:00</published>
+  <updated>2026-01-12T11:30:07+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this PHP retry backoff?</media:title>
+   <media:content url="https://www.youtube.com/v/HytRc0gwipo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/HytRc0gwipo/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this PHP retry backoff during outages. The PHP code retries on a fixed schedule without jitter, so all workers stampede at once. In PHP services this keeps the outage alive.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>whats wrong with this php code, php bug, php production bug, php debugging, php backend, php code review, php security, php performance, php reliability, php api, php web development, php engineering, php retry backoff, php thundering herd, php outage, php resilience</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:iAr-Mc8IjAc</id>
+  <yt:videoId>iAr-Mc8IjAc</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>What's wrong with this PHP file save?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=iAr-Mc8IjAc"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-13T02:08:21+00:00</published>
+  <updated>2026-01-15T10:15:47+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this PHP file save?</media:title>
+   <media:content url="https://www.youtube.com/v/iAr-Mc8IjAc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/iAr-Mc8IjAc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this PHP file save in a cache writer. The PHP code overwrites the file in place, so readers can observe partial JSON. In PHP services this causes corrupted reads and crashes.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>whats wrong with this php code, php bug, php production bug, php debugging, php backend, php code review, php security, php performance, php reliability, php api, php web development, php engineering, php atomic write, php file corruption, php cache file, php json</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:aY-YR0M24ns</id>
+  <yt:videoId>aY-YR0M24ns</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>'in' Operator vs in_array(): Which is More ELEGANT?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=aY-YR0M24ns"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-13T00:02:15+00:00</published>
+  <updated>2026-01-16T10:15:48+00:00</updated>
+  <media:group>
+   <media:title>'in' Operator vs in_array(): Which is More ELEGANT?</media:title>
+   <media:content url="https://www.youtube.com/v/aY-YR0M24ns?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/aY-YR0M24ns/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Python's 'in' operator makes PHP look ANCIENT! But wait... there's a twist!</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>PHP, Python, php vs python, in operator, in_array, contains check, syntax elegance, viral coding, python tricks, php tricks, programming comparison, mind blown</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:Yi43pgKyKB8</id>
+  <yt:videoId>Yi43pgKyKB8</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>How to Stop unserialize From Becoming Code Execution</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=Yi43pgKyKB8"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-12T22:38:08+00:00</published>
+  <updated>2026-01-09T15:59:29+00:00</updated>
+  <media:group>
+   <media:title>How to Stop unserialize From Becoming Code Execution</media:title>
+   <media:content url="https://www.youtube.com/v/Yi43pgKyKB8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/Yi43pgKyKB8/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Untrusted serialize data can run magic methods.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>php, unserialize, object injection, security, howto, rce</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:6Avr-9LTbXA</id>
+  <yt:videoId>6Avr-9LTbXA</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>Stale While Revalidate Cache</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=6Avr-9LTbXA"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-12T21:08:59+00:00</published>
+  <updated>2026-01-13T00:10:41+00:00</updated>
+  <media:group>
+   <media:title>Stale While Revalidate Cache</media:title>
+   <media:content url="https://www.youtube.com/v/6Avr-9LTbXA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/6Avr-9LTbXA/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Serve fast responses while refreshing in background.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>PHP, Python, cache, stale while revalidate, performance, latency, backend safety, reliability, growth, viral coding</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:-GtgcqTDwxE</id>
+  <yt:videoId>-GtgcqTDwxE</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>Why is this PHP ORDER BY unsafe?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=-GtgcqTDwxE"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-12T20:08:21+00:00</published>
+  <updated>2026-01-09T16:09:09+00:00</updated>
+  <media:group>
+   <media:title>Why is this PHP ORDER BY unsafe?</media:title>
+   <media:content url="https://www.youtube.com/v/-GtgcqTDwxE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/-GtgcqTDwxE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Why is this PHP ORDER BY unsafe in a search endpoint. The PHP code interpolates a user supplied sort field into SQL, allowing injection. In PHP apps this exposes data and crashes queries.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>whats wrong with this php code, php bug, php production bug, php debugging, php backend, php code review, php security, php performance, php reliability, php api, php web development, php engineering, php sql injection, php order by, php query, php database</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:ySZmYPKx6IY</id>
+  <yt:videoId>ySZmYPKx6IY</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>How to Avoid switch Type Juggling Bugs</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=ySZmYPKx6IY"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-12T18:37:15+00:00</published>
+  <updated>2026-01-12T11:37:19+00:00</updated>
+  <media:group>
+   <media:title>How to Avoid switch Type Juggling Bugs</media:title>
+   <media:content url="https://www.youtube.com/v/ySZmYPKx6IY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/ySZmYPKx6IY/hqdefault.jpg" width="480" height="360"/>
+   <media:description>Loose switch cases can match the wrong branch.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>php, switch, type juggling, bug, howto, control flow</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:q3P2vyumVXE</id>
+  <yt:videoId>q3P2vyumVXE</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>What's wrong with this PHP webhook signature check?</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=q3P2vyumVXE"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-12T18:29:58+00:00</published>
+  <updated>2026-01-14T00:15:47+00:00</updated>
+  <media:group>
+   <media:title>What's wrong with this PHP webhook signature check?</media:title>
+   <media:content url="https://www.youtube.com/v/q3P2vyumVXE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/q3P2vyumVXE/hqdefault.jpg" width="480" height="360"/>
+   <media:description>What's wrong with this PHP webhook signature check. The PHP code compares HMACs with ==, which leaks timing information. In PHP integrations this allows attackers to guess valid signatures.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>whats wrong with this php code, php bug, php production bug, php debugging, php backend, php code review, php security, php performance, php reliability, php api, php web development, php engineering, php hmac, php timing attack, php webhook, php signature</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
+  <id>yt:video:aO7pyKzJxLc</id>
+  <yt:videoId>aO7pyKzJxLc</yt:videoId>
+  <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
+  <title>How to Prevent array_unique From Reindexing IDs</title>
+  <link rel="alternate" href="https://www.youtube.com/watch?v=aO7pyKzJxLc"/>
+  <author>
+   <name>TurboLearn PHP</name>
+   <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
+  </author>
+  <published>2026-01-12T16:38:08+00:00</published>
+  <updated>2026-01-18T00:10:04+00:00</updated>
+  <media:group>
+   <media:title>How to Prevent array_unique From Reindexing IDs</media:title>
+   <media:content url="https://www.youtube.com/v/aO7pyKzJxLc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
+   <media:thumbnail url="https://i2.ytimg.com/vi/aO7pyKzJxLc/hqdefault.jpg" width="480" height="360"/>
+   <media:description>array_unique drops keys and scrambles IDs.</media:description>
+   <media:category scheme="http://gdata.youtube.com/schemas/2007/categories.cat">Education</media:category>
+   <media:keywords>php, array_unique, keys, bug, howto, arrays</media:keywords>
+   <media:community>
+    <media:starRating count="0" average="0.00" min="1" max="5"/>
+    <media:statistics views="0"/>
+   </media:community>
+  </media:group>
+ </entry>
+ <entry>
   <id>yt:video:qBSSUnCQ9Bw</id>
   <yt:videoId>qBSSUnCQ9Bw</yt:videoId>
   <yt:channelId>UCxxxxxxxxxxxxxxxxxxxxxxx</yt:channelId>
@@ -46,7 +1246,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-12T10:38:08+00:00</published>
-  <updated>2026-01-09T15:59:29+00:00</updated>
+  <updated>2026-01-15T18:10:39+00:00</updated>
   <media:group>
    <media:title>How to Fix float Money Bugs With BCMath</media:title>
    <media:content url="https://www.youtube.com/v/qSnqO39Vigw?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -121,7 +1321,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-12T04:38:08+00:00</published>
-  <updated>2026-01-09T15:59:29+00:00</updated>
+  <updated>2026-01-16T20:16:41+00:00</updated>
   <media:group>
    <media:title>How to Prevent File Upload Path Traversal</media:title>
    <media:content url="https://www.youtube.com/v/Uett5oHrzjg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -146,7 +1346,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-12T03:39:55+00:00</published>
-  <updated>2026-01-11T11:40:07+00:00</updated>
+  <updated>2026-01-14T12:12:42+00:00</updated>
   <media:group>
    <media:title>How to Stop substr Breaking UTF-8 Text</media:title>
    <media:content url="https://www.youtube.com/v/y1RY0MctgeA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -196,7 +1396,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-12T02:02:15+00:00</published>
-  <updated>2026-01-09T15:59:29+00:00</updated>
+  <updated>2026-01-18T00:15:04+00:00</updated>
   <media:group>
    <media:title>Set Operations: Mathematical Magic in Code!</media:title>
    <media:content url="https://www.youtube.com/v/OB7tW0u3Grk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -246,7 +1446,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-11T21:39:55+00:00</published>
-  <updated>2026-01-11T11:40:02+00:00</updated>
+  <updated>2026-01-15T18:10:41+00:00</updated>
   <media:group>
    <media:title>How to Catch JSON Errors Instead of Silent null</media:title>
    <media:content url="https://www.youtube.com/v/Fna5PbgPCxc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -296,7 +1496,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-11T19:08:59+00:00</published>
-  <updated>2025-12-30T15:55:09+00:00</updated>
+  <updated>2026-01-17T12:10:50+00:00</updated>
   <media:group>
    <media:title>Webhook Signature Rotation</media:title>
    <media:content url="https://www.youtube.com/v/gW9IjvBPfKI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -346,7 +1546,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-11T15:39:55+00:00</published>
-  <updated>2026-01-11T11:39:59+00:00</updated>
+  <updated>2026-01-15T20:16:10+00:00</updated>
   <media:group>
    <media:title>How to Replace md5 Passwords With password_hash</media:title>
    <media:content url="https://www.youtube.com/v/5UYJQnHRrhE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -371,7 +1571,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-11T14:08:21+00:00</published>
-  <updated>2026-01-09T16:08:51+00:00</updated>
+  <updated>2026-01-16T15:16:31+00:00</updated>
   <media:group>
    <media:title>Why does this PHP cache keep missing real zeros?</media:title>
    <media:content url="https://www.youtube.com/v/IfK9wIYfrEo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -471,7 +1671,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-11T04:38:08+00:00</published>
-  <updated>2026-01-09T15:59:29+00:00</updated>
+  <updated>2026-01-17T18:10:04+00:00</updated>
   <media:group>
    <media:title>How to Use hash_equals to Block Timing Attacks</media:title>
    <media:content url="https://www.youtube.com/v/YyeBpCq--2s?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -696,7 +1896,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-10T08:08:21+00:00</published>
-  <updated>2026-01-11T20:15:04+00:00</updated>
+  <updated>2026-01-13T15:15:45+00:00</updated>
   <media:group>
    <media:title>What's wrong with this PHP array_search check?</media:title>
    <media:content url="https://www.youtube.com/v/8XHDpL1oR88?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -746,7 +1946,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-10T04:38:08+00:00</published>
-  <updated>2026-01-09T15:59:29+00:00</updated>
+  <updated>2026-01-14T18:12:41+00:00</updated>
   <media:group>
    <media:title>How to Fix array_filter Dropping Zero Values</media:title>
    <media:content url="https://www.youtube.com/v/dK9yTLGM_40?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -821,7 +2021,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-09T22:38:08+00:00</published>
-  <updated>2026-01-10T16:47:31+00:00</updated>
+  <updated>2026-01-17T18:11:40+00:00</updated>
   <media:group>
    <media:title>How to Block SQL Injection With PDO Prepared Statements</media:title>
    <media:content url="https://www.youtube.com/v/R1esAkJqZXA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -896,7 +2096,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-09T15:08:59+00:00</published>
-  <updated>2026-01-12T10:15:05+00:00</updated>
+  <updated>2026-01-13T10:15:47+00:00</updated>
   <media:group>
    <media:title>Feature Flag Kill Switch</media:title>
    <media:content url="https://www.youtube.com/v/wah5h8K4Q2c?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -946,7 +2146,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-09T10:05:16+00:00</published>
-  <updated>2026-01-10T10:16:10+00:00</updated>
+  <updated>2026-01-14T00:11:01+00:00</updated>
   <media:group>
    <media:title>How to Stop in_array From Matching the Wrong Value</media:title>
    <media:content url="https://www.youtube.com/v/1Pt3TH4rHtc?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -971,7 +2171,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-09T08:02:15+00:00</published>
-  <updated>2026-01-11T00:10:48+00:00</updated>
+  <updated>2026-01-13T15:15:05+00:00</updated>
   <media:group>
    <media:title>Zip Function EXPLOSION: Combine Arrays Like a BOSS!</media:title>
    <media:content url="https://www.youtube.com/v/vPQTWFTsytQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1046,7 +2246,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-08T10:02:15+00:00</published>
-  <updated>2026-01-12T00:15:05+00:00</updated>
+  <updated>2026-01-15T15:15:47+00:00</updated>
   <media:group>
    <media:title>List Unpacking in Function Calls: The * Operator TRICK!</media:title>
    <media:content url="https://www.youtube.com/v/Y-Ots-eneyo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1071,7 +2271,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-08T00:08:59+00:00</published>
-  <updated>2026-01-09T15:59:29+00:00</updated>
+  <updated>2026-01-18T00:16:08+00:00</updated>
   <media:group>
    <media:title>Export Resume Cursor</media:title>
    <media:content url="https://www.youtube.com/v/6DcEKpLxUOQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1121,7 +2321,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-07T11:08:59+00:00</published>
-  <updated>2026-01-12T12:10:05+00:00</updated>
+  <updated>2026-01-17T12:10:48+00:00</updated>
   <media:group>
    <media:title>Outbox Event Sender</media:title>
    <media:content url="https://www.youtube.com/v/O6nJNFNrwTY?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1146,7 +2346,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-07T00:04:01+00:00</published>
-  <updated>2026-01-10T16:47:26+00:00</updated>
+  <updated>2026-01-13T00:16:26+00:00</updated>
   <media:group>
    <media:title>Competitor Price Cache with Failover</media:title>
    <media:content url="https://www.youtube.com/v/9orrqrZ0mFQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1196,7 +2396,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-06T14:02:15+00:00</published>
-  <updated>2026-01-09T20:15:04+00:00</updated>
+  <updated>2026-01-12T20:16:19+00:00</updated>
   <media:group>
    <media:title>Default Parameters TRAP: Mutable Defaults Are DANGEROUS!</media:title>
    <media:content url="https://www.youtube.com/v/JDMDd2oqgSQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1246,7 +2446,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-06T09:08:59+00:00</published>
-  <updated>2026-01-09T15:59:29+00:00</updated>
+  <updated>2026-01-12T20:15:04+00:00</updated>
   <media:group>
    <media:title>Impossible Travel Login Check</media:title>
    <media:content url="https://www.youtube.com/v/x7ja3mMbr2g?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1296,7 +2496,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-05T20:08:59+00:00</published>
-  <updated>2026-01-09T15:59:29+00:00</updated>
+  <updated>2026-01-14T12:12:43+00:00</updated>
   <media:group>
    <media:title>Support Ticket PII Redaction</media:title>
    <media:content url="https://www.youtube.com/v/cgmH9X6aIu8?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1321,7 +2521,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-05T19:11:26+00:00</published>
-  <updated>2026-01-09T15:59:29+00:00</updated>
+  <updated>2026-01-16T20:15:04+00:00</updated>
   <media:group>
    <media:title>Referral Abuse Detector</media:title>
    <media:content url="https://www.youtube.com/v/e7lPVS26aiI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1521,7 +2721,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-04T18:08:59+00:00</published>
-  <updated>2026-01-09T15:59:29+00:00</updated>
+  <updated>2026-01-13T12:10:46+00:00</updated>
   <media:group>
    <media:title>Invoice Sequence Race Lock</media:title>
    <media:content url="https://www.youtube.com/v/MFqdIc3_nSk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1596,7 +2796,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-04T06:04:01+00:00</published>
-  <updated>2026-01-09T15:59:29+00:00</updated>
+  <updated>2026-01-16T18:10:52+00:00</updated>
   <media:group>
    <media:title>Webhook Event Idempotency</media:title>
    <media:content url="https://www.youtube.com/v/5k8K-T9rQRg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1621,7 +2821,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-04T05:08:59+00:00</published>
-  <updated>2026-01-11T00:10:49+00:00</updated>
+  <updated>2026-01-12T18:13:03+00:00</updated>
   <media:group>
    <media:title>Suspicious Device Change Trigger</media:title>
    <media:content url="https://www.youtube.com/v/UdK8zNjJk1o?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1646,7 +2846,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-04T02:11:54+00:00</published>
-  <updated>2026-01-10T16:48:16+00:00</updated>
+  <updated>2026-01-17T18:11:38+00:00</updated>
   <media:group>
    <media:title>Null Coalescing vs Optional Chaining: Null Safety War</media:title>
    <media:content url="https://www.youtube.com/v/iC8vLJnRUHk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -1821,7 +3021,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-03T08:04:01+00:00</published>
-  <updated>2026-01-09T15:59:29+00:00</updated>
+  <updated>2026-01-16T12:10:49+00:00</updated>
   <media:group>
    <media:title>OTP Bruteforce Lockout</media:title>
    <media:content url="https://www.youtube.com/v/M_apND-4SXo?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2246,7 +3446,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2026-01-01T06:11:54+00:00</published>
-  <updated>2026-01-09T15:59:29+00:00</updated>
+  <updated>2026-01-13T00:10:41+00:00</updated>
   <media:group>
    <media:title>Reference vs Value: The &amp; Operator Mystery!</media:title>
    <media:content url="https://www.youtube.com/v/h2cpk5xxQCI?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2646,7 +3846,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2025-12-30T16:11:26+00:00</published>
-  <updated>2026-01-09T18:11:20+00:00</updated>
+  <updated>2026-01-17T18:11:38+00:00</updated>
   <media:group>
    <media:title>Card BIN Block</media:title>
    <media:content url="https://www.youtube.com/v/Sdxi62H951I?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2696,7 +3896,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2025-12-30T12:00:35+00:00</published>
-  <updated>2026-01-11T10:15:05+00:00</updated>
+  <updated>2026-01-12T18:13:02+00:00</updated>
   <media:group>
    <media:title>Foreach Reference Creates Zombie Corrupting 470K Prices?!</media:title>
    <media:content url="https://www.youtube.com/v/P6u1tJUONac?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2771,7 +3971,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2025-12-30T06:02:15+00:00</published>
-  <updated>2026-01-09T15:59:29+00:00</updated>
+  <updated>2026-01-16T18:10:51+00:00</updated>
   <media:group>
    <media:title>For-Else Loop: The SECRET Feature Nobody Knows!</media:title>
    <media:content url="https://www.youtube.com/v/GnwckZivKDs?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2821,7 +4021,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2025-12-30T03:11:54+00:00</published>
-  <updated>2026-01-09T15:59:29+00:00</updated>
+  <updated>2026-01-18T00:11:06+00:00</updated>
   <media:group>
    <media:title>Match Expression vs Switch: Pattern Matching Showdown</media:title>
    <media:content url="https://www.youtube.com/v/BiiJf3Cpbsk?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -2896,7 +4096,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2025-12-29T16:00:35+00:00</published>
-  <updated>2026-01-09T20:16:41+00:00</updated>
+  <updated>2026-01-18T00:11:06+00:00</updated>
   <media:group>
    <media:title>Float Precision Loses Payment Company $1.2M Over 3 Years?!</media:title>
    <media:content url="https://www.youtube.com/v/p-Bzp8spzdA?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -3596,7 +4796,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2025-12-23T01:46:35+00:00</published>
-  <updated>2026-01-09T15:59:29+00:00</updated>
+  <updated>2026-01-18T00:11:07+00:00</updated>
   <media:group>
    <media:title>PHP Shock: Composer Manual Includes In Seconds</media:title>
    <media:content url="https://www.youtube.com/v/hosPMgqjOwQ?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -4046,7 +5246,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2025-12-13T13:43:24+00:00</published>
-  <updated>2026-01-09T15:59:29+00:00</updated>
+  <updated>2026-01-13T00:10:44+00:00</updated>
   <media:group>
    <media:title>PHP Attack Plan For Middleware Route</media:title>
    <media:content url="https://www.youtube.com/v/JtDlxOUAbz0?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -4671,7 +5871,7 @@
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2025-12-02T07:19:19+00:00</published>
-  <updated>2025-12-24T18:10:23+00:00</updated>
+  <updated>2026-01-15T12:10:47+00:00</updated>
   <media:group>
    <media:title>PHP Callable Type Hint Secret</media:title>
    <media:content url="https://www.youtube.com/v/DXEDNL6mAxE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -6286,7 +7486,7 @@ Perfect for PHP developers who want to avoid subtle bugs in their code.
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2025-11-22T00:48:58+00:00</published>
-  <updated>2025-12-21T20:37:48+00:00</updated>
+  <updated>2026-01-13T12:10:48+00:00</updated>
   <media:group>
    <media:title>Null Coalesce Chain</media:title>
    <media:content url="https://www.youtube.com/v/iXH4EDcJZeg?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -6386,7 +7586,7 @@ Perfect for PHP developers who want to avoid subtle bugs in their code.
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2025-11-20T22:40:22+00:00</published>
-  <updated>2026-01-09T15:59:29+00:00</updated>
+  <updated>2026-01-12T18:13:04+00:00</updated>
   <media:group>
    <media:title>Stop Ignoring ArrayAccess Interface Isset Checks In PHP</media:title>
    <media:content url="https://www.youtube.com/v/a9zK0-SkGZE?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
@@ -6611,7 +7811,7 @@ Perfect for PHP developers who want to avoid subtle bugs in their code.
    <uri>https://www.youtube.com/channel/UCxxxxxxxxxxxxxxxxxxxxxxx</uri>
   </author>
   <published>2025-11-18T08:03:33+00:00</published>
-  <updated>2026-01-04T12:10:53+00:00</updated>
+  <updated>2026-01-15T12:10:45+00:00</updated>
   <media:group>
    <media:title>First Class Callables - Closure vs ...</media:title>
    <media:content url="https://www.youtube.com/v/ZXEWiiVzp5U?version=3" type="application/x-shockwave-flash" width="640" height="390"/>
