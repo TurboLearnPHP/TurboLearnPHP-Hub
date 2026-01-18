@@ -6,6 +6,9 @@ import { useClassification } from '../../hooks/useClassification';
 import { useApp } from '../../contexts/AppContext';
 import { useGridParallax } from '../../hooks/useParallax';
 import { useTilt } from '../../hooks/useTilt';
+import { useRipple } from '../../hooks/useRipple';
+import { useScrollReveal } from '../../hooks/useScrollReveal';
+import { RippleEffect } from '../RippleEffect';
 import { config } from '../../config';
 import styles from './FeedCard.module.css';
 
@@ -28,12 +31,15 @@ export function FeedCard({ item, index = 0 }: FeedCardProps) {
     scale: 1.03,
     perspective: 800,
   });
+  const { ripples, createRipple } = useRipple();
+  const { ref: revealRef, isVisible } = useScrollReveal({ threshold: 0.15 });
 
   // Combine refs
   const combinedRef = useCallback((node: HTMLElement | null) => {
     parallaxRef(node);
     tiltRef(node);
-  }, [parallaxRef, tiltRef]);
+    revealRef(node);
+  }, [parallaxRef, tiltRef, revealRef]);
 
   // Handle hover with delay for video preview
   const handleMouseEnter = useCallback(() => {
@@ -76,14 +82,18 @@ export function FeedCard({ item, index = 0 }: FeedCardProps) {
     }
   }, [item, classifyItem]);
 
-  const handleClick = () => {
-    navigate(`/watch/${item.videoId}`);
+  const handleClick = (e: React.MouseEvent<HTMLElement>) => {
+    createRipple(e);
+    // Slight delay for ripple effect
+    setTimeout(() => {
+      navigate(`/watch/${item.videoId}`);
+    }, 150);
   };
 
-  const handleKeyDown = (e: React.KeyboardEvent) => {
+  const handleKeyDown = (e: React.KeyboardEvent<HTMLElement>) => {
     if (e.key === 'Enter' || e.key === ' ') {
       e.preventDefault();
-      handleClick();
+      navigate(`/watch/${item.videoId}`);
     }
   };
 
@@ -120,7 +130,7 @@ export function FeedCard({ item, index = 0 }: FeedCardProps) {
   return (
     <article
       ref={combinedRef}
-      className={`${styles.card} ${isHovering ? styles.hovering : ''}`}
+      className={`${styles.card} ${isHovering ? styles.hovering : ''} ${isVisible ? styles.revealed : styles.hidden}`}
       style={combinedStyle}
       onClick={handleClick}
       onKeyDown={handleKeyDown}
@@ -131,6 +141,8 @@ export function FeedCard({ item, index = 0 }: FeedCardProps) {
       role="button"
       aria-label={`Watch ${item.title}`}
     >
+      {/* Ripple effect on click */}
+      <RippleEffect ripples={ripples} />
       {/* 3D Glare overlay */}
       <div className={styles.glareOverlay} style={glareStyle} />
       <div className={`${styles.thumbnailWrapper} ${item.type === 'short' ? styles.short : ''}`}>
