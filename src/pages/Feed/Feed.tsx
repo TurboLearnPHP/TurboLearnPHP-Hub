@@ -6,6 +6,7 @@ import { FeedGrid } from '../../components/FeedGrid';
 import { ContinueWatching } from '../../components/ContinueWatching';
 import { ErrorState } from '../../components/ErrorState';
 import { MiniPlayer } from '../../components/MiniPlayer';
+import { FloatingActions } from '../../components/FloatingActions';
 import styles from './Feed.module.css';
 
 export function FeedPage() {
@@ -45,6 +46,8 @@ export function FeedPage() {
           <FeedGrid items={filteredItems} isLoading={isLoading} />
         </>
       )}
+      
+      <FloatingActions />
       
       {currentItem && (
         <MiniPlayer
